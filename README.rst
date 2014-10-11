@@ -32,7 +32,7 @@ Project History
 
 This project is part of PyLit6.  See that project's documentation for details
 about why this project is being developed. URL:
-https://github.com/rblack43/PyLit6
+https://github.com/rblack42/PyLit6
 
 For more information on the project, contact the author.
 

@@ -67,10 +67,18 @@ Setting up Coverage
 With TravisCI_ set up, we need to inform Coveralls_ that it is also to do some
 tests for us. 
 
+As with TravisCI, we need to activate the coverage tests by opening up a web browser and navigating to the Coveralls_ web site. On your account page, resync your repository list to make sure the new project shows up, then switch on the tests.
+
 Publishing the Project on PyPi
 ******************************
 
-This step is essential for any significant open-source Python project. 
+This step is essential for any significant open-source Python project.
+
+Create a PyPi Configuration file
+================================
+
+Once you set up an account on PyPi_, you should record the details in a ``.pypirc`` file in your home directory.
+
 
 Create setup.py
 ===============
@@ -79,6 +87,15 @@ Here is the file we will use:
 
 ..  literalinclude::    ../setup.py
     :linenos:
+
+Register the Project
+====================
+
+Once your project is properly configured, we register it as follows:
+
+..  code-block:: text
+
+    $ python setup.py register -r rstparser
 
 
 
