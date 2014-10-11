@@ -1,6 +1,6 @@
 __title__ = 'rstParser'
 __summary__ = 'A parser for reStructuredText documents'
-__url__ = 'http://www.pylit.org'
+__url__ = 'https://github.com/rblack42/rstParser'
 __version__ = '0.1-dev'
 __author__ = 'Roie R. Black'
 __email__ = 'rblack@austincc.edu'

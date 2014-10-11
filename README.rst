@@ -15,7 +15,7 @@ rstParser = A parser for reStructuredText Documents
     :target: https://pypi.python.org/pypi/rstParser/
     :alt: Latest Version
 
-..  image:: https://pypip.in/license/rstParser/badge.svg
+..  image:: https://pypip.in/license/rstParser/badge.png
     :target: http://pypi.python.org/pypi/rstParser/
     :alt: License
 
