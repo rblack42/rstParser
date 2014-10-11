@@ -22,4 +22,5 @@ omit =
 ignore_errors = True
 
 [html]
-directory coverage_html_report
+directory = docs/_build/html
+

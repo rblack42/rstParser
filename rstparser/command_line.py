@@ -1,5 +1,6 @@
 from rstparser.rst.Parser import Parser
 
+
 def main():
     print 'rstParser...'
     parser = Parser()

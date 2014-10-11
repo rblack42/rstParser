@@ -9,9 +9,10 @@ include MANIFEST
 include Makefile
 include tox.ini
 include README.rst
-include runtests.py
+include *.py
 include *.txt
 include *.rst
 include *.in
+prune docs/_build
 
-global-exclude *.py[co] __pycache__ .DS_Store
+global-exclude *.py[co] __pycache__ .DS_Store 

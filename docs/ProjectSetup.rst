@@ -20,7 +20,7 @@ It seems that all good projects end up living on GitHub_ these days, and this
 one will be no exception. To begin the project, I created a new empty repository
 using the GitHub_ web interface. The assigned project URL is:
 
-    * https://github.com/rblack42/rstParser.git
+    * https://github.com/rblack42/rstParser
 
 Next, we set up a working project directory. On my development system this is
 in ``~/_projects/rstParser``. After this is set up, we connect the local
@@ -52,9 +52,33 @@ Next, we create a few standard directories:
 Setting up TravisCI
 *******************
 
-Once the project is up on Github, open up a web browser and navigate to your TravisCI_ accont page. On your main page, click on the small plus icon. Your repositories will be displayed. Click on :menuselection:`Sync now` to update this list. Once this has been done, scroll down until you see your new project, and turn on the control that will fire off tests.
+Once the project is up on Github, open up a web browser and navigate to your
+TravisCI_ accont page. On your main page, click on the small plus icon. Your
+repositories will be displayed. Click on :menuselection:`Sync now` to update
+this list. Once this has been done, scroll down until you see your new project,
+and turn on the control that will fire off tests.
 
-From this point on, any time you push new changes to your site, the trsts will run and the status of your project will appran in your GitHub_ README file.
+From this point on, any time you push new changes to your site, the trsts will
+run and the status of your project will appear in your GitHub_ README file.
+
+Setting up Coverage
+*******************
+
+With TravisCI_ set up, we need to inform Coveralls_ that it is also to do some
+tests for us. 
+
+Publishing the Project on PyPi
+******************************
+
+This step is essential for any significant open-source Python project. 
+
+Create setup.py
+===============
+
+Here is the file we will use:
+
+..  literalinclude::    ../setup.py
+    :linenos:
 
 
 
