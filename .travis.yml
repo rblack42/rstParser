@@ -9,7 +9,7 @@ install:
 # command to run tests
 script:
     - sudo tox -v
-    coverage run `which nosetests`
+    - coverage run `which nosetests`
 
 after_success:
     coveralls
