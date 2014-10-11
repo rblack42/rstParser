@@ -1,0 +1,5 @@
+pytest
+tox
+pytest-flakes
+python-coveralls
+coverage

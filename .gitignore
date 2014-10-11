@@ -1,0 +1,32 @@
+#  Python
+*.py[cod]
+__pycache__
+
+# Packages
+*.egg
+*.tar.gz
+*.zip
+
+# Tests/Coverage
+.coverage
+.tox
+
+# virtualenv
+_venv
+
+# Vim
+*.swp
+*~
+
+# Mac
+.DS_Store
+
+# Sphinx
+docs/_build
+
+# distutils
+build
+dist
+sdist
+rstParser.egg-info
+
