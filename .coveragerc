@@ -1,6 +1,9 @@
 # .coveragerc to control coverage.py
 [run]
-branch = True
+omit =
+    # omit all of our tests
+    */test/*
+    */_venv/*
 
 [report]
 excluse_lines =
@@ -15,12 +18,9 @@ excluse_lines =
     if 0:
     if __name__ == .__main__.:
 
-omit =
-    # omit all of our tests
-    */test/*
 
 ignore_errors = True
 
 [html]
-directory = docs/_build/html
+directory = docs/_coverage/html
 
