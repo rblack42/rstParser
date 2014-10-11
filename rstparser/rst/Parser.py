@@ -11,12 +11,12 @@ __all__ = [
 ]
 
 
-class rstParser(object):
+class Parser(object):
 
     def __init__(self):
         pass
 
-    der parse(selfi,text):
+    def parse(self,text):
         for l in text:
             print(l)
 
@@ -24,7 +24,7 @@ def main(filename):
     import json
     with open(filename) as f:
         text = f.readlines()
-    parser = rstParser()
+    parser = Parser()
     parser.parse(text)
 
 if __name__ == '__main__':

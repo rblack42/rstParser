@@ -49,6 +49,12 @@ Next, we create a few standard directories:
     mkdir rstparser
     touch rstparser/__init__.py
 
+Setting up TravisCI
+*******************
+
+Once the project is up on Github, open up a web browser and navigate to your TravisCI_ accont page. On your main page, click on the small plus icon. Your repositories will be displayed. Click on :menuselection:`Sync now` to update this list. Once this has been done, scroll down until you see your new project, and turn on the control that will fire off tests.
+
+From this point on, any time you push new changes to your site, the trsts will run and the status of your project will appran in your GitHub_ README file.
 
 
 
