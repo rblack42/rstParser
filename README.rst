@@ -11,15 +11,15 @@ rstParser = A parser for reStructuredText Documents
 ..  image:: https://coveralls.io/repos/rblack42/rstParser/badge.png?branch=master
     :target: https://coveralls.io/r/rblack42/rstParser
 
-..  image:: https://pypip.in/version/rstParser/badge.png
+..  image:: https://pypip.in/version/rstParser/badge.svg
     :target: https://pypi.python.org/pypi/rstParser/
     :alt: Latest Version
 
-..  image:: https://pypip.in/license/rstParser/badge.png
+..  image:: https://pypip.in/license/rstParser/badge.svg
     :target: http://pypi.python.org/pypi/rstParser/
     :alt: License
 
-.. image:: https://pypip.in/py_versions/rstParser/badge.svg
+..  image:: https://pypip.in/py_versions/rstParser/badge.svg
     :target: https://pypi.python.org/pypi/rstParser/
     :alt: Supported Python versions
 
