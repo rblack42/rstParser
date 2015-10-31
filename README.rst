@@ -6,21 +6,22 @@ rstParser = A parser for reStructuredText Documents
 
 ..  include::   /references.inc
 
-..  image:: https://travis-ci.org/rblack42/rstParser.svg?branch=master
+..  image:: https://img.shields.io/rblack42/rstParser.svg
     :target: https://travis-ci.org/rblack42/rstParser
-    
-..  image:: https://coveralls.io/repos/rblack42/rstParser/badge.png?branch=master
+    :alt: Coveralls
+
+..  image:: https://img.shields.io/coveralls/rblack42/rstParser.svg
     :target: https://coveralls.io/r/rblack42/rstParser
+    :alt: Coveralls
 
 
 ..  image:: https://img.shields.io/pypi/rstParser/badge.svg
     :target: https://pypi.python.org/pypi/rstParser/
-    :alt: Latest Version
+    :alt: pypi version
 
 ..  image:: https://img.shields.io/pypi/l/rstParser.png
     :target: http://pypi.python.org/pypi/rstParser/
-    :alt: License
-
+    :alt: pypi licen
 ..  image:: https://pypip.in/py_versions/rstParser/badge.svg
     :target: https://img.shields.io/pypi/pyversions/rstParser.svg
     :alt: Supported Python versions
